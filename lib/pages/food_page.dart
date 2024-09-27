@@ -50,7 +50,7 @@ class _FoodPageState extends State<FoodPage> {
           child: Column(
             children: [
               // food image
-              Image.asset(widget.food.imagePath),   
+              Image.asset(widget.food.imagePath, width: double.infinity,fit: BoxFit.cover,),   
               Padding(
                 padding: const EdgeInsets.all(25.0),
                 child: Column(  
